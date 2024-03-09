@@ -1,0 +1,58 @@
+
+.skills{
+    width: 100vw;
+    display: flex;
+    max-width: 85%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all-icon{
+    width: 100vw;
+    /* overflow: scroll; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 2rem;
+    margin-left: 9rem;
+    border-radius: 0.5rem;
+    background-color: #c7deb9;
+    box-shadow: 4px 5px 4px -0px #b8b8b8;
+
+
+}
+
+
+.all-icon img{
+    width: 4rem;
+    margin: 0.5rem 2rem ;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.all-icon img:hover{
+    box-shadow: 2px 2px 5px rgba(78, 78, 78, 0.8);
+    transform: scale(1.2);
+    
+}
+
+.icon-head {
+   text-align: center;
+   max-width: 80%;
+   margin-left: 5.5rem;
+}
+
+.icon-head h3{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: large;
+    font-weight: 300;
+}
+.icon-head p{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    color: #850447b4;
+    text-align: justify;
+}

@@ -1,0 +1,36 @@
+.about{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.about-bar{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 85%;
+    text-align: left;
+    border-radius: 0.5rem;
+    background-color:#d0e2c5;
+    box-shadow: 4px 5px 4px -0px #b8b8b8;
+}
+.about-text{
+    object-fit: cover;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    text-align: justify;
+    /* color: #850447b4; */
+
+    
+}
+
+
