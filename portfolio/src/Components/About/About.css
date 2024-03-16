@@ -1,26 +1,26 @@
-.about{
+.about {
     overflow: hidden;
-    width: 100vw;
+    width: 100%; /* Changed to 100% */
     max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    padding: 2rem; /* Added padding */
 }
 
-
-.about-bar{
+.about-bar {
     margin: 1.5rem;
-    width: 100vw;
+    width: 100%; /* Changed to 100% */
     max-width: 85%;
     text-align: left;
     border-radius: 0.5rem;
-    background-color:#d0e2c5;
+    background-color: #d0e2c5;
     box-shadow: 4px 5px 4px -0px #b8b8b8;
 }
-.about-text{
-    object-fit: cover;
+
+.about-text {
     margin: 1rem;
     padding: 1rem;
     font-family: "Poppins", sans-serif;
@@ -28,9 +28,14 @@
     font-style: normal;
     font-size: 12px;
     text-align: justify;
-    /* color: #850447b4; */
-
-    
 }
 
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 1rem; /* Adjusted padding for smaller screens */
+    }
 
+    .about-bar {
+        margin: 1rem; /* Adjusted margin for smaller screens */
+    }
+}
