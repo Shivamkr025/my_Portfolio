@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div>
       <nav className='navbar-Container'>
-        <p> ✨ 𝒔𝒉𝒊𝒗𝒂𝒎 </p>
+        <p>  𝒔𝒉𝒊𝒗𝒂𝒎 </p>
 
         <div className='navbar-Menu'>
           <Link activeClass='active' to='intro ' spy={true} smooth={true} offset={-50} duration={500} className='navbar-link'>Home</Link>
