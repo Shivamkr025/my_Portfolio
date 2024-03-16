@@ -1,6 +1,6 @@
 
 .skills{
-    width: 100vw;
+    width: 99vw;
     display: flex;
     max-width: 85%;
     flex-direction: column;
@@ -12,19 +12,17 @@
     /* overflow: scroll; */
     display: flex;
     flex-wrap: wrap;
-    max-width: 80%;
+    max-width: 90%;
     margin: 2rem;
-    margin-left: 9rem;
+    margin-left: 10rem;
     border-radius: 0.5rem;
     background-color: #c7deb9;
     box-shadow: 4px 5px 4px -0px #b8b8b8;
 
 
 }
-
-
 .all-icon img{
-    width: 4rem;
+    width: 50px;
     margin: 0.5rem 2rem ;
     cursor: pointer;
     transition: all 0.7s ease;
@@ -55,4 +53,34 @@
     font-size: 10px;
     color: #850447b4;
     text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .skills {
+        padding: 1rem;
+    }
+
+    .all-icon {
+        max-width: 95%;
+    }
+
+    .icon-head {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .skills {
+        padding: 1rem;
+    }
+
+    .all-icon {
+        max-width: 95%;
+        margin-left: 6rem;
+    }
+
+    .icon-head {
+        max-width: 95%;
+        margin-left: 3.5rem;
+    }
 }

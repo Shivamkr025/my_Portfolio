@@ -17,7 +17,9 @@ function Project() {
           </div>
           <div className='project-text-container'>
             <h4> 🌍 News Application 🤝</h4>
-            <p>here I write project description Get 116 book library website templates on ThemeForest such as Book Guide - Books Library eCommerce Store, Book Library - Online Store HTML Template</p>
+            <p>The news website project is easy to use. It shows top headlines when you open it, and you can search for news that
+              you like. It works well on different devices, and you can easily explore different categories. It uses React to quickly
+              update content without slowing down, and it has features to make sure everyone can use it.</p>
 
             <span>
               <br />

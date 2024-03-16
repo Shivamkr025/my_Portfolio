@@ -9,7 +9,7 @@
 }
 .project-element {
    width: 100vw;
-   max-width: 85vw;
+   max-width: 80vw;
 }
 
 
@@ -28,9 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    overflow:hidden;
-    margin: 1rem;
+    margin: 1rem 0rem 0rem 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: #c7deb9;
@@ -41,12 +39,35 @@
 
 .project-container{
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+    font-weight: 300;
+    font-style:normal;
     font-size: 10px;
   }
 
 .project-text-container{
-    height: 10rem;
+    height: 12rem;
     width: 60%;
+}
+
+
+@media screen and (max-width: 426px) { /* Adjusted breakpoint for smaller devices */
+    .project-container {
+        flex-wrap: wrap; /* Flex wrap for smaller screens */
+        overflow: auto; /* Enable overflow scrolling for smaller screens */
+    }
+
+    .project-container img {
+        width: 100%; /* Makes images fill the container width */
+        max-width: none; /* Ensures images take full width on smaller screens */
+        margin: 0.5rem 0; /* Adjusted margin for smaller screens */
+    }
+
+    .project-text-container {
+        width: 100%; /* Make text container fill the width */
+    }
+
+    /* Adjust font size for phones */
+    .project-container {
+        font-size: 10px;
+    }
 }
